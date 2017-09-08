@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Sam's Schedule</title>
+	<meta name="description" content="Sam's Schedule">
+	<meta name="author" content="Smolitor">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="./js/scripts.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="task">
+		<ul>
+			<li v-for="task in tasks">
+				{{task}}
+			</li>
+		</ul>
+	</div>
+	
+
+</body>
+</html>

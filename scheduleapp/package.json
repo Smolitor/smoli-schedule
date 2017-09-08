@@ -1,0 +1,11 @@
+{
+  "name": "schedule-app",
+  "version": "0.0.0",
+  "description": "An API to keep my schedule straight",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Molitor",
+  "license": "ISC"
+}
